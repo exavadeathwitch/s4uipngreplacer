@@ -42,8 +42,9 @@ if __name__ == '__main__':
         filesize2offset = pngoffset - 16
         png = open(n + '.png',"rb")
         png_size = os.path.getsize(n + '.png')
-        pnglist = list(png.read(file_size))
+        pnglist = list(png.read(png_size))
         retlist = []
+        print(len(pnglist))
         for x in range(0, pngoffset):
             retlist.append(numbers[x])
         for x in range(0, len(pnglist)):
