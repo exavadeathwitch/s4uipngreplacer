@@ -1,6 +1,6 @@
 ## s4uipngreplacer
 
-Download "importstorm4png.zip" from https://github.com/exavadeathwitch/s4uipngreplacer/releases/tag/Release
+Download the latest release.
 
 Unzip the file.
 
